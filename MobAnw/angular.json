@@ -68,7 +68,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MobAnw:build"
+            "browserTarget": "MobAnw:build",
+            "ssl": true,
+            "sslKey": "/raimu/Dokumente/MobAnw/ssl/key.pem",
+            "sslCert": "/raimu/Dokumente/MobAnw/ssl/certificate.pem"
+
           },
           "configurations": {
             "production": {
